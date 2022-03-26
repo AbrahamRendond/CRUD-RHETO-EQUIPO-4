@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar usuario</title>
+</head>
+<body>
+    <div>
+        <h2>Editar</h2>
+    </div>
+        <form id="Alumno" action="/guardar" method="POST">
+        <div>
+            <h4>Datos del trabajador</h4>
+        </div>
+
+        <label for="rfc">Modificar RFC</label>
+        <div><input name="rfc" type="text" id="rfc" placeholder="RFC" required></div>
+
+        <label for="curp">Modificar CURP</label>
+        <diV><input name="curp" type="text" id="curp" placeholder="Puesto" required></div>
+
+        <label for="nombre">Modificar nombre</label>
+        <div><input name="nombre" type="number" id="nombre" placeholder="Sueldo diario" required></div>   
+
+        <label for="password">Modificar contraseña</label>
+        <div><input name="password" type="text" id="password" placeholder="Contraseña nueva" required></div>
+        
+        
+        <input type="submit" value="Agregar" id="guardar">
+        </form>
+    <br><br>
+</body>
+</html>
